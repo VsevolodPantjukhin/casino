@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.header-logo {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ebb41c;
+  height: min-content;
+}
+
+.header-menu {
+  display: flex;
+  margin-left: 77px;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 25px;
+}
+.header-logo > img {
+  width: 99px;
+  height: 76px;
+  cursor: pointer;
+}
+
+.header-menu-button {
+  background-color: #1e1e1e;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.withdraw-profile-block {
+  display: flex;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.withdraw-profile-block > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.deposit-btn {
+  background: #ebb41c;
+}
+/* .deposit-btn > img {
+} */
+
+.withdraw-btn {
+  background: #5eb69e;
+}
+
+.profile-block {
+  display: flex;
+}
+/* .profile-info-block {
+} */
+
+.nickname {
+  margin: 6px 21px 0 0;
+}
+
+.balance {
+  margin: 0;
+  color: #ebb41c;
+  margin-right: 3px;
+}
+
+.balance-block {
+  display: flex;
+}
+.profile-logo {
+  cursor: pointer;
+}
